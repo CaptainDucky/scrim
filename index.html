@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.csgoscrim.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jan 2017 21:40:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<link rel="icon" href="scrimdatabaselogo.png">
+<link rel="stylesheet" href="style.css">
+<script src="../www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+<title> CSGO Scrim Data Base </title>
+
+</head>
+
+<body>
+
+
+<div class="button_overlay">
+<form value='input' action='http://www.csgoscrim.net/login.php' method='post'><input type='submit' value='Login'></form>
+10/40/33pm<font></font>
+<a href="help.html">[HELP]</a>
+<font></font>
+<a href="https://steamcommunity.com/id/saviiyo">[ADMIN]</a>
+<form value="input" action="http://www.csgoscrim.net/connect.php" method="post">
+<select name="skillLevel" size="1">
+	<option>Low</option>
+			<option>Mid</option>
+			<option>High</option>
+			<option>Topteam</option>	
+</select>
+
+<select name="map">
+	<option>de_dust2</option>
+	<option>de_cache</option>
+	<option>de_mirage</option>
+	<option>de_cbble</option>
+	<option>de_inferno</option>
+	<option>de_nuke</option>
+	<option>de_overpass</option>
+	<option>de_train</option>
+</select>
+
+<select name="server" size="1">
+	<option>On</option>
+</select>
+
+<select name="location">
+	<option>Europe</option>
+	<option>North Europe</option>
+	<option>East Europe</option>
+	<option>North America</option>
+	<option>South America</option>
+	<option>Asia</option>
+	<option>Oceania</option>
+	<option>Africa</option>
+	<option>Other</option>
+</select>
+
+<input type="text" maxlength= "50" name="steamid" placeholder="STEAMID">
+<input type="text" maxlength= "25" name="ip" required pattern="((^|\.)((25[0-5])|(2[0-4]\d)|(1\d\d)|([1-9]?\d))){4}:([1-9][0-9][0-9][0-9]{0,2})$" placeholder="SERVERIP">
+<input type="text" maxlength= "25" name="pw" required placeholder="PASSWORD">
+<input type="submit" value="Submit">
+</form>
+</div>
+
+
+<table class='sortable'><tr> 
+<th>Teamname</th>
+<th>SkillLevel</th>
+<th>Map</th>
+<th>Server</th>
+<th>Location</th>
+<th>STEAMID</th>
+<th>Server IP</th>
+<th>Timestamp</th>
+<tr><tr><td>CSGOScrim</td><td>Topteam</td><td>de_example</td><td>On</td><td>Europe</td><td><button type='button' id=saviiyo onclick='contactSteamID(this.id)'>Message!</button></td><td><form action='http://www.csgoscrim.net/joinServer.php' method='post'><button type='submit' name='id' value='1'>Join!</button></form><td>09/05/26pm</td></tr></table>
+
+<script>
+function contactSteamID(steamID){
+
+var joinIP = 'https://steamcommunity.com/id/'+ steamID;
+window.location = joinIP;
+}
+
+</script>
+
+</body>
+
+
+
+
+<!-- Mirrored from www.csgoscrim.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jan 2017 21:40:31 GMT -->
+</html>
