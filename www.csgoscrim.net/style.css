@@ -1,15 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
-
 body {
-
-  background-size:     cover;
+ 
+  background-size:     cover; 
   background-repeat:   repeat-y;
   background-position: center center;
   background-image: url("test.png");
   background-size:cover;
   background-color: #252931;
-
+  
   font-family: "Roboto", helvetica, arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -18,7 +17,7 @@ body {
 
 }
 form {
-    display: inline-block; //Or display: inline;
+    display: inline-block; //Or display: inline; 
 }
 
 select {
@@ -29,10 +28,10 @@ select {
 }
 
 .button_overlay{
-
+	
 	width: 70%;
 	border-collapse: collapse;
-	margin: auto;
+	margin: auto;		
 }
 
 input[type=submit]{
@@ -45,22 +44,6 @@ input[type=submit]{
 	border: 3px solid #0B0A0A;
 	font-weight: bold;
 	border-radius: 4px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #dddddd;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 8px;
 }
 
 
@@ -120,13 +103,13 @@ a{
 	 border-collapse: collapse;
 	 margin: auto;
  }
-
+ 
  table.sortable thead {
     cursor: default;
 }
 
-table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
-    content: " \25B4\25BE"
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
 }
 
 th {
@@ -140,18 +123,18 @@ th {
   text-align:left;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align:middle;
-
+  
 }
 
 th:first-child {
   border-top-left-radius:3px;
 }
-
+ 
 th:last-child {
   border-top-right-radius:3px;
   border-right:none;
 }
-
+  
 tr {
   border-top: 1px solid #C1C3D1;
   border-bottom: 1px solid #C1C3D1;
@@ -160,14 +143,14 @@ tr {
   font-weight:normal;
   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
-
+ 
 tr:hover td {
   background:#4E5066;
   color:#FFFFFF;
   border-top: 1px solid #22262e;
   border-bottom: 1px solid #22262e;
 }
-
+ 
 tr:first-child {
   border-top:none;
 }
@@ -175,11 +158,11 @@ tr:first-child {
 tr:last-child {
   border-bottom:none;
 }
-
+ 
 tr:nth-child(odd) td {
   background:#EBEBEB;
 }
-
+ 
 tr:nth-child(odd):hover td {
   background:#4E5066;
 }
@@ -187,11 +170,11 @@ tr:nth-child(odd):hover td {
 tr:last-child td:first-child {
   border-bottom-left-radius:3px;
 }
-
+ 
 tr:last-child td:last-child {
   border-bottom-right-radius:3px;
 }
-
+ 
 td {
 
   background:#FFFFFF;
